@@ -1,0 +1,24 @@
+@import './mixins/variable';
+
+body {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #efe;
+    .container {
+        & {
+            padding: $padding;
+            border: $border;
+        }
+        .img-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .logo {
+            width: 100%;
+            height: 200px;
+            background: url('../img/s.jpg');
+            background-size: cover;
+        }
+    }
+}

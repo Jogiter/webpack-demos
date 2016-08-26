@@ -1,0 +1,21 @@
+{
+  "name": "jogiter",
+  "description": "",
+  "main": "webpack.config.js",
+  "authors": [
+    "Jogiter <jogiter.g@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Jogiter/webpack-demos",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "vue": "^1.0.26",
+    "zepto": "^1.1.6"
+  }
+}
