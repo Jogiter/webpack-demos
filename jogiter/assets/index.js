@@ -27,8 +27,8 @@ webpackJsonp([1],[
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/sass-loader/index.js!./index.scss", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/sass-loader/index.js!./index.scss");
+			module.hot.accept("!!./../node_modules/.npminstall/css-loader/0.24.0/css-loader/index.js!./../node_modules/.npminstall/sass-loader/4.0.0/sass-loader/index.js!./index.scss", function() {
+				var newContent = require("!!./../node_modules/.npminstall/css-loader/0.24.0/css-loader/index.js!./../node_modules/.npminstall/sass-loader/4.0.0/sass-loader/index.js!./index.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
