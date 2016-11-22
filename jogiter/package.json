@@ -10,14 +10,18 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^0.24.0",
+    "es5-shim": "^4.5.9",
     "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "node-sass": "^3.13.0",
     "pug-loader": "^2.3.0",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "vue-loader": "^8.5.2",
     "webpack": "^1.13.2"
   },
   "devDependencies": {
-    "node-sass": "^3.8.0"
+    "imports-loader": "^0.6.5"
   }
 }

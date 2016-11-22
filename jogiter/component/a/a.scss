@@ -1,0 +1,13 @@
+.a {
+    &.hide {
+        display: none;
+    }
+    h2 {
+        color: red;
+        background-color: #efa;
+    }
+    p {
+        background-color: #000;
+        color: #fff;
+    }
+}
