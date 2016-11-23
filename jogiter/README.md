@@ -45,3 +45,12 @@
 
 +   [Webpack引入jquery及其插件的几种方法](http://blog.csdn.net/yiifaa/article/details/51916560)
 +   [imports-loader](https://github.com/webpack/imports-loader#usage)
+
+
+## webpack版本控制 && 静态资源部署CDN
+
+需要注意的是：
+
+1.`url-loader?limit=10240`中的limit的值控制图片的大小，如果图片小于limit，webpack会将该图片转换成base64，否则会直接引用图片所在的路径
+2.`html-webpack-plugin`如果有多个页面，需要多个配置
+3.output中的`publicPath`会指向`html-webpack-plugin`添加到页面上的资源的路径(可以将静态资源上传到cdn，将这里的路径改为cdn路径)，`path`则是webpack打包后文件所在的位置

@@ -76,7 +76,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 
-/******/ 			script.src = __webpack_require__.p + "" + chunkId + "." + ({"1":"index","2":"test"}[chunkId]||chunkId) + ".js";
+/******/ 			script.src = __webpack_require__.p + "chunk" + chunkId + ".js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};
@@ -88,7 +88,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "./assets/";
+/******/ 	__webpack_require__.p = "../src/";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
