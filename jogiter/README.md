@@ -3,7 +3,7 @@
 1.`zepto`没有封装CommonJS的引用，`jquery`有，因此不使用zepto(需要额外对它进行封装)而使用jquery
 2.`style-loader`中使用了`Function.bind`和`Array.filter`方法，因此需要使用[es5-shim](https://github.com/es-shims/es5-shim)，具体参考[style-loader/issues/42](https://github.com/webpack/style-loader/issues/42)
 
-# todo
+# todos
 
 - [ ]   autoprefixer来辅助css
 - [x]   jquery的使用，以及其插件的使用。参见[imports-loader](https://github.com/webpack/imports-loader)
