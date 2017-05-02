@@ -6,4 +6,6 @@ var compiler = webpack(config);
 config.entry.app.unshift("webpack-dev-server/client?http://localhost:8080/");
 var server = new WebpackDevServer(compiler, config.devServer);
 
+server.use(require("webpack-hot-middleware")(compiler));
+
 server.listen(8080);
