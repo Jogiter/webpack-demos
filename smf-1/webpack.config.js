@@ -70,7 +70,8 @@ module.exports = {
             chunks: ['app'],
             hash: true
         }),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoErrorsPlugin()
     ],
     devServer: {
         contentBase: path.resolve(__dirname, 'build'), // 和path对应
